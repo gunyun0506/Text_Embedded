@@ -1,0 +1,6 @@
+[compute]
+region = us-east4
+
+[dataproc]
+region = us-east4
+

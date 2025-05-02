@@ -1,0 +1,14 @@
+2025-05-02 00:38:11,911 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2025-05-02 00:38:11,922 DEBUG    root            Loaded Command Group: ['gcloud', 'services', 'enable']
+2025-05-02 00:38:11,925 DEBUG    root            Running [gcloud.services.enable] with arguments: [--project: "qwiklabs-gcp-01-0ae94850e587", SERVICE:4: "['compute.googleapis.com', 'aiplatform.googleapis.com', 'storage.googleapis.com', 'bigquery.googleapis.com']"]
+2025-05-02 00:38:11,979 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-05-02 00:38:13,006 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/qwiklabs-gcp-01-0ae94850e587/services:batchEnable?alt=json HTTP/11" 200 None
+2025-05-02 00:38:13,025 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-05-02 00:38:13,196 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acat.p2-92479543796-b451da78-af18-4c65-bd13-816e6dc491da?alt=json HTTP/11" 200 None
+2025-05-02 00:38:15,819 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-05-02 00:38:16,020 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acat.p2-92479543796-b451da78-af18-4c65-bd13-816e6dc491da?alt=json HTTP/11" 200 None
+2025-05-02 00:38:16,060 INFO     ___FILE_ONLY___ Operation "operations/acat.p2-92479543796-b451da78-af18-4c65-bd13-816e6dc491da" finished successfully.
+
+2025-05-02 00:38:16,062 DEBUG    root            Chosen display Format:none
+2025-05-02 00:38:16,062 INFO     root            Display format: "none"
+2025-05-02 00:38:16,063 DEBUG    root            SDK update checks are disabled.
